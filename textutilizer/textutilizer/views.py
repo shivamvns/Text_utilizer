@@ -1,7 +1,7 @@
 
 
 # Views.py
-# I have created this file - Harry
+# I have created this file
 from django.http import HttpResponse
 from django.shortcuts import render
 
@@ -11,14 +11,6 @@ def index(request):
 
     # return HttpResponse("Home")
 
-
-def ex1(request):
-    sites = ['''For Entertainment youtube video''',
-             '''For Interaction Facebook''',
-             '''For Insight   Ted Talk''',
-             '''For Internship   Intenship''',
-             ]
-    return HttpResponse((sites))
 
 def analyze(request):
     #Get the text
